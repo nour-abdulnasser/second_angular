@@ -1,0 +1,23 @@
+<p>home works!</p>
+
+<div class="container">
+  <div class="row">
+    <!-- <app-parent></app-parent> -->
+    <table class="table">
+      <thead>
+        <th>name</th>
+        <th>price</th>
+        <th>cat</th>
+        <th>id</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let prod of products">
+            <td>{{prod.name}}</td>
+            <td>{{prod.price}}</td>
+            <td>{{prod.id}}</td>
+            <td>{{prod.category}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div class="p-4 bg-info">
+    <h2>hello from parent component {{userName}}</h2>
+    <!-- what if we want to use userName in child -->
+    <app-child [bl7]="userName" (sendMsg)="display($event)"></app-child>
+</div>

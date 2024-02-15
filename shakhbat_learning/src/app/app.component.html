@@ -1,0 +1,106 @@
+<app-nav-bar></app-nav-bar>
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container"> -->
+  <!-- normal -->
+  <!-- <h1 [class]=" 'bg-info' ">hi my name is {{userName}}</h1> -->
+
+  <!-- class based on if condition -->
+  <!-- <h1 [class.bg-info]="userAge > 20">hi my name is {{ userName }}</h1> -->
+
+  <!-- ternary operator -->
+  <!-- <h1 [class]="userAge > 20 ? 'bg-info' : ''" > hi my name is {{userName}}</h1> -->
+
+  <!-- styling based on if condition -->
+  <!-- <h1 [style.color]="userAge > 20 ? 'green' : 'red'"> hi my name is {{ userName }} </h1> -->
+
+  <!-- ngIf: say we want to disappear if age smaller than 20 -->
+  <!-- <h1 [class.d-none]="userAge < 20"> hi my name is {{userName}}</h1> -->
+
+  <!-- we dont want it to appear on inspect -->
+  <!-- <h1 *ngIf="userAge < 20"> hi my name is {{userName}}</h1>  -->
+
+  <!-- we dont want it to appear on inspect -->
+  <!-- <h1 *ngIf="userAge > 20; else btee5">hi my name is {{ userName }}</h1>
+  <ng-template #btee5>
+    <h1>wont show username bc less than 20</h1>
+  </ng-template> -->
+
+
+
+  <!-- <button class="btn btn-info" (click)="sayHi()">Click me babes</button> -->
+  <!-- <img src="./assets/img/1.jpg" [width]="imgWidth" alt="guy" /> -->
+
+  <!-- two way data binding -->
+  <!-- first method -->
+  <!-- <input (keyup)="getInfo($event)" type="text" class="form-control my-4" /> -->
+
+  <!-- second method : importing form module -->
+  <!-- <input  [(ngModel)]="userName" type="text" class="form-control my-4" /> -->
+
+  <!-- <h4>i am {{ userAge }}</h4> -->
+
+  <!-- event binding -->
+  <!-- <input (keyup.x)="sayHi($event)" type="text" class="form-control my-4" /> -->
+  <!-- <input (keyup)="sayHi($event)" type="text" class="form-control my-4" />
+
+  <ul>
+    <li *ngFor="let friend of friends">{{ friend }}</li>
+  </ul>
+
+  <table class="">
+    <thead>
+      <th>Name</th>
+      <th>ID</th>
+      <th>price</th>
+      <th>Category</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of productsArr; let x = odd" [class.bg-info]="x">
+        <td>{{ product.name }}</td>
+        <td>{{ product.id }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.category }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+<div [ngSwitch]="userName">
+  <p *ngSwitchCase="'nour' ">hello nour </p>
+  <p *ngSwitchCase="'sal'">hello sal </p>
+  <p *ngSwitchCase="'hamz'">hello hamz </p>
+  <p *ngSwitchDefault="''">hello boo </p>
+</div>
+</div> -->
